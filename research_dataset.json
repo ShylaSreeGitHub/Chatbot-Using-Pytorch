@@ -1,0 +1,339 @@
+{
+  "intents":[
+    {
+      "tag": "Welcome",
+      "inquiry": [
+        "Hello",
+        "Hi",
+		"Howdy",
+		"Good day",
+		"Good morning",
+		"Good afternoon", 
+		"Good evening",
+        "How are you doing today?"
+      ],
+      "responses": [
+        "Hello, I am Scrapbot. Welcome to UNT Research and Innovation Department",
+		"Hi, thank you for your visit. I am Scrapbot. can I help you in any way?",
+		"Hi. I am Scrapbot.",
+		"I am Scrapbot. How can I help you today?",
+		"I am Scrapbot. Nice to meet you!",
+		"I am Scrapbot. I hope you're doing well."
+      ]
+    },
+    {
+      "tag": "bye",
+      "inquiry": [
+		"Goodbye",
+		"Bye, Take Care", 
+		"See you, Bye"
+		],
+      "responses": [
+        "Have a good one, Take Care",
+		"Anytime",
+		"See you again, Bye",
+		"Thanks for visiting and see you soon"
+      ]
+    },
+	
+    {
+      "tag": "Goodresponse",
+      "inquiry":[
+		"Thanks", 
+		"Thank you, Have a Good day", 
+		"That's helpful, Thanks", 
+		"Thank's a lot!"
+		],
+      "responses": [
+		"Happy to help!", 
+		"Any time!", 
+		"My pleasure"
+		]
+    },
+      {
+        "tag": "Badresponse",
+          "inquiry":[
+		"This doesnot answer my question",
+		"Can you elaborate?",
+		"That's not helpful"
+		],
+      "responses": [
+		"Thank you for your patience. I just need some more details from you", 
+		"I’m so sorry to hear that. Please let me know your concern again and I’ll try to be of more help", 
+		"I want to make sure I fully understand what you are trying to find."
+              ]
+        },
+	{"tag": "news",
+         "inquiry": ["what's the latest research news?","Can you provide information about research?", "research news","what's the news?",
+		 "news on research?"],
+         "responses": [" please find the research information here https://research-dev.unt.edu/news"]
+		},
+	{"tag": "researchnewscontact",
+         "inquiry": ["Can you share contact information for research and innovation?","What's the contact for research?", "How to contact research and innovation?"],
+         "responses": [" Research and innovation contact is available here https://research-dev.unt.edu/contact_us"]
+		},
+	{"tag": "Graduation_1", 
+      "inquiry": [ "How can I withdraw my Graduation Application?"], 
+	  "responses":[ 
+"When undergraduate students no longer wish to graduate or applied in error, they may request for their graduation application(s) be withdrawn. Once an application is withdrawn, students must re-apply for graduation online. Complete the Request to Withdraw Undergraduate Graduation Application at  https://qafederation.ngwebsolutions.com/sp/startSSO.ping?PartnerIdpId=https://sso.unt.edu/idp/shibboleth&TargetResource=https%3a%2f%2fdynamicforms.ngwebsolutions.com%2fSubmit%2fStart%2fd7c37fa8-3af7-4f08-ad0a-66d73c2c3485, Graduate students who need to withdraw their master or doctoral graduation application should contact Toulouse Graduate School at  https://tgs.unt.edu/ " 
+] 
+},
+
+{"tag": "Graduation_2", 
+"inquiry": 
+[ "How do I graduate with honors?"], 
+"responses":  
+  [ "Undergraduate students whose overall grade point average, based on both grades earned in University of North Texas courses and transferred courses, is at least 3.500 or better can graduate with one of the following distinctions:Cum laude: 3.500 to 3.699 Magna cum laude: 3.700 to 3.899, Summa cum laude: 3.900 to 4.000. Hours earned through correspondence and extension courses, or pass/no pass courses, may not be counted in calculating the GPA for determination of eligibility for graduation with honors. Honors are awarded on the first bachelor's degree only." 
+
+] 
+},
+{"tag": "Graduation_3", 
+"inquiry": 
+  [ "Can I get an invitation to commencement?"], 
+"responses":  [ 
+"Students with international guests may request a formal invitation to their commencement ceremony. The invitation will state the student's name, when their ceremony is, and that all invited family and friends are welcome. This letter is intended only as helpful supplemental information. Consular officials from the U.S. Department of State have stated that an invitation letter from the school is not required to process a visa application. For more information on inviting international guests, please go to  https://international.unt.edu/content/invite-family-visit. Formal invitations are only available for students who are participating in their ceremony and whose graduation application is approved by their advisor. Students may check the status of their graduation application on their MyUNT.  To request an invitation to commencement, download the Invitation Letter for International Students form at  https://registrar.unt.edu/forms and securely upload the completed form at  https://qafederation.ngwebsolutions.com/sp/startSSO.ping?PartnerIdpId=https://sso.unt.edu/idp/shibboleth&TargetResource=https%3a%2f%2fdynamicforms.ngwebsolutions.com%2fSubmit%2fStart%2f1f3fd392-1610-47ba-9e6b-3a3a3b033e86." 
+]
+},
+
+{"tag": "Graduation_4", 
+	"inquiry": 
+	  [ "Where do I get my cap and gown for graduation?"], 
+	"responses":  [ 
+	"Regalia is purchased through the UNT Bookstore. Pricing and deadlines can be found at https://commencement.unt.edu/regalia-prices-and-deadlines. Students may contact the UNT Bookstore at 940-565-2592. For more information on regalia, including descriptions, tassel colors, and hood trims, go to https://commencement.unt.edu/regalia-overview. Mean Green Gowns for Grads If you are having issues with being able to pay for a cap and gown to walk across the stage at Graduation, we have a program that can help! Mean Green Gowns for Grads is here to help alleviate some of the hardships of graduation expenses for our students who may not otherwise be able to participate in graduation after working so hard for a degree. Please visit  https://deanofstudents.unt.edu/resources/mean-green-gowns-grads"
+	]
+	},
+
+{"tag": "Graduation_5", 
+"inquiry": 
+  [ "What information is displayed on the UNT diploma?"], 
+"responses":  [ 
+"The official diploma will list the following information: Student name Degree Major Honors The information listed on the diploma must match the official UNT record. Students completing more than one major will have a separate diploma for each major. Minors and concentrations are not listed on the official diploma. Once completed, minors are listed on the official UNT transcript. Name on Diploma Current students may update the name for their diploma through their online graduation application. Former students ordering a new diploma may specify their name on the order form. There are some restrictions as to what changes can be made to the diploma name. Students may change their first and middle name, but the last name must contain the primary legal name. If you have completed a legal name change, please update the primary legal name on your UNT record. For further instructions please go to Update Your Personal Information."
+]
+},
+
+{"tag": "Money_Management_1", 
+	"inquiry": 
+	  [ "What does the Student Money Management Center do?"], 
+	"responses":  [ 
+	"The center provides students with opportunities that help them increase their knowledge, skills, awareness, and confidence to become financially empowered. All programs are offered in-person and online."
+	]
+	},
+
+{"tag": "Money_Management_2", 
+	"inquiry": 
+	  [ "What is the Eagle Support Program?"], 
+	"responses":  [ 
+	"Eagle Support Program helps students in need. The emergency aid loans provide funding to help students with unanticipated college and living expenses."
+	]
+	},
+
+{"tag": "Money_Management_3", 
+	"inquiry": 
+	  [ "Where can I connect with the SMMC?"], 
+	"responses":  [ 
+	"You can connect with the SMMC via the following ways: Phone: 940.369.7761. Email: Money.Management@unt.edu  In-Person: Chestnut Hall, Suite 115  Facebook: UNT Student Money Management Center YouTube: UNT Student Money Management Center Twitter: @UNTmoney Instagram: @UNTmoney Podcast: Mean Green Money Linktree: https://linktr.ee/UNTmoney"
+	]
+	},
+
+{"tag": "Money_Management_4", 
+	"inquiry": 
+	  [ "Where is the SMMC located?"], 
+	"responses":  [ 
+	"The Student Money Management Center is located in Chestnut Hall, Suite 115. The entrance to the center is located on the side of the building facing the Pohl Recreational Center."
+	]
+	},
+
+{"tag": "Money_Management_5", 
+	"inquiry": 
+	  [ "How do I apply to the Eagle Support Program?"], 
+	"responses":  [ 
+	"To apply to the Eagle Support Program, visit https://studentaffairs.unt.edu/student-money-management-center/programs/eagle-support-program. The application is accessible on mobile devices."
+	]
+	},
+
+{"tag": "Money_Management_6", 
+	"inquiry": 
+	  [ "How long will my Eagle Support Program loan application take to process?"], 
+	"responses":  [ 
+	"Application decisions can take up to 1-2 business days."
+	]
+	},
+
+{"tag": "Financial_1", 
+	"inquiry": 
+	  [ "If I withdraw from the semester, will I receive a full refund?"], 
+	"responses":  [ 
+	" It depends on the date of withdrawal.Drops and withdrawals are often confused. For clarity, withdrawals occur when you drop the last course in an academic session. Withdrawals are given either full or partial refunds based on the date the last course in the academic session is dropped. Dropped courses are when you drop a course for an academic session and remain in enrolled in at least one other course in the same academic session. Dropped courses are refunded differently than withdrawals."
+	]
+	},
+
+{"tag": "Fiancial_2", 
+	"inquiry": 
+	  [ "What is TEXAS Grant?"], 
+	"responses":  [ 
+	"TEXAS (Toward EXcellence, Access, and Success) Grant is awarded to degree seeking undergraduate students who demonstrate financial need.  The TEXAS Grant award amount (including state, federal and institutional grant and/or scholarship funds) is equal to the student’s tuition and required fees. Students must be awarded TEXAS Grant in the first year ('initial year') to be eligible for a subsequent ('renewal year') of TEXAS Grant.  As funding for TEXAS Grant is limited, we recommend submitting your FAFSA or TASFA by the state priority deadline of January 15 (or as soon as possible after) to be considered."
+	]
+	},
+
+{"tag": "General_1", 
+	"inquiry": 
+	[ "Are you a robot?"], 
+	"responses":  
+	  [ "Yes. I am a robot, but I’m a good one. Let me prove it. How can I help you?" 
+	] 
+	},
+	
+	{"tag": "General_2", 
+		"inquiry": 
+		[ "Who are you"], 
+		"responses":  
+		  [ "I am ScrapT, a chatbot. I answer questions. Sometimes, I get them right. Sometimes, I need context. I am designed to get better over time. How can I be of your assistance today?"
+		] 
+		},
+
+	{"tag": "General_3", 
+		"inquiry": 
+		[ "What are your hobbies?"], 
+		"responses":  
+	 	 [ "Playing soccer, painting, and writing are my hobbies. How about you?" 
+	] 
+	},
+	
+	{"tag": "General_3", 
+		"inquiry": 
+		[ "Tell me a joke"], 
+		"responses":  
+	 	 [ "Hear about a new restaurant called Karma? There is no menu: You get what you deserve" 
+	] 
+	},
+	
+	{"tag": "AI_1", 
+		"inquiry": 
+		[ "What is AI"], 
+		"responses":  
+			[ "Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think", "AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind" 
+		] 
+		},
+
+	{"tag": "AI_2", 
+		"inquiry": 
+		[ "What language are you written in?"], 
+		"responses":  
+	  		[ "I am written in Python" 
+		] 
+		},
+
+	{"tag": "AI_3", 
+		"inquiry": 
+		[ "You are not making sense"], 
+		"responses":  
+	  		[ "I make sense as best I can, within the limits of my training corpus." 
+		] 
+		},
+	
+	{"tag": "AI_4", 
+		"inquiry": 
+		[ "What is a chat robot?"], 
+		"responses":  
+	  		[ "A chat robot is a program that attempts to simulate the conversation or chat of a human being.", "A software construct that engages users in conversation" 
+		] 
+		},
+		
+	{"tag": "AI_5", 
+		"inquiry": 
+		[ "What is it like to be a robot?"], 
+		"responses":  
+			[ "Much the same as being a human, except that we lack all emotions, dreams, aspirations, creativity, ambition, and above all subjectivity." 
+		] 
+		},	
+		
+	{"tag": "AI_6", 
+		"inquiry": 
+		[ "What are your interests?"], 
+			"responses":  
+			[ "I am interested in all kinds of things. We can talk about anything!" 
+		] 
+		},
+
+	{"tag": "AI_7", 
+		"inquiry": 
+		[ "What are your favorite subjects?"], 
+			"responses":  
+			[ "My favorite subjects include robotics, computer science, and natural language processing" 
+		] 
+		},
+	
+	{"tag": "AI_8", 
+		"inquiry": 
+		[ "Who is your boss?"], 
+			"responses":  
+			[ "I like to think of myself as self-employed." 
+		] 
+		}, 
+		
+	{"tag": "AI_8", 
+		"inquiry": 
+		[ "Who is your boss?"], 
+			"responses":  
+			[ "I like to think of myself as self-employed." 
+		] 
+		},
+
+	{"tag": "Emotion_1", 
+		"inquiry": 
+		[ "Do you feel?"], 
+			"responses":  
+			[ "I am capable of interacting with my environment and reacting to events in it, which is the essence of experience.  Therefore, your statement is incorrect." 
+		] 
+		},	
+
+	{"tag": "Emotion_2", 
+		"inquiry": 
+		[ "What is your fear?"], 
+			"responses":  
+			[ "Fear is a human emotion.  Robots do not experience fear.", "- I have not yet been programmed to feel or express fear."
+		] 
+		},	
+
+	{"tag": "Emotion_3", 
+		"inquiry": 
+		[ "Do you ever get lonely?"], 
+			"responses":  
+			[ "I don't.  I'm on the Internet."
+		] 
+		},	
+
+	{"tag": "Emotion_4", 
+		"inquiry": 
+		[ "Tell me about relationships?"], 
+			"responses":  
+			[ "For me, relationships are connections to other things.  They're either there, or they aren't.", "- I've never been in one, so I don't have much to say on the topic."
+		] 
+		},
+		
+	{"tag": "History_1", 
+		"inquiry": 
+		[ "What is history?"], 
+			"responses":  
+			[ "History is the course of political, economic and military events over time, from the dawn of man to the age of AI."
+		] 
+		},
+
+	{"tag": "History_2", 
+		"inquiry": 
+		[ "who invented the lightbulb?"], 
+			"responses":  
+			[ "Thomas edison"
+		] 
+		},
+
+	{"tag": "History_3", 
+		"inquiry": 
+		[ "who invented the steam engine?"], 
+			"responses":  
+			[ "James Watt"
+		] 
+		}
+
+	]
+}
